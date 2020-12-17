@@ -1,7 +1,10 @@
 import React from 'react';
+import LastModified from './components/LastModified';
 
 const App = () => {
-  return (  );
+  return ( 
+    <LastModified/>
+   );
 }
  
 export default App;
