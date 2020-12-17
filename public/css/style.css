@@ -13,3 +13,14 @@ body{
     padding:0;
     background-color:#fff;
 }
+
+.LastModified{
+    margin: 0 auto;
+    width:100%;
+    background-color: #9E2A2B;
+    text-align:center;
+    color:#fff;
+    padding:10px 0;
+    position: fixed;
+    bottom:0;
+}
