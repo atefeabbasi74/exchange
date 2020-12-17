@@ -11,7 +11,7 @@ body{
     font-family: 'BYekan';
     margin:0;
     padding:0;
-    background-color:#fff;
+    background-color:#FFF3B0;
 }
 
 .LastModified{
@@ -20,7 +20,26 @@ body{
     background-color: #9E2A2B;
     text-align:center;
     color:#fff;
-    padding:10px 0;
+    padding:20px 0;
     position: fixed;
     bottom:0;
+}
+
+.Currency{
+    background: #283845;
+    border-radius: 10px;
+    margin: 2px 1%;
+    width:48%;
+    text-align:right;
+    color:#fff;
+    padding:15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.BuySell, .Name{
+    display: flex;
+    flex-flow: column;
 }

@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Axios from 'axios';
+import Currency from './components/Currency';
 import LastModified from './components/LastModified';
 
 const App = () => {
+  
+  const [data, setData] = useState("");
+
+  useEffect(() =>  {
+    const fetchData = async () => {
+    await Axios.get('https://currency.jafari.li/json')
+    .then((res) => setData(res.data))
+    }
+    fetchData()
+}, [])
+
   return ( 
-    <LastModified/>
+    <>
+    <LastModified data={data} />
+    <Currency data={data} />
+    </>
    );
 }
  
