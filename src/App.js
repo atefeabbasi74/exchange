@@ -3,6 +3,7 @@ import Axios from 'axios';
 import Currency from './components/Currency';
 import LastModified from './components/LastModified';
 import Gold from './components/Gold';
+import Item from './components/Items';
 
 const App = () => {
   
@@ -22,6 +23,7 @@ const App = () => {
     <LastModified data={data} />
     <Currency data={data} />
     <Gold data={data} />
+    <Item data={data} />
     </>
    );
 }
