@@ -17,6 +17,7 @@ const App = () => {
 
   return ( 
     <>
+    <h1 className="Title">نرخ ارزها</h1>
     <Currency data={data} />
     </>
    );
