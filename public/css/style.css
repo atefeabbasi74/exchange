@@ -111,6 +111,6 @@ body{
 
 @media only screen and (max-width:1200px) {
     .Items, .Currency, .Gold {
-        width:98%;
+        width:96%;
     }
 }
