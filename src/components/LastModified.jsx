@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import Axios from 'axios';
+// import React, { useEffect, useState } from 'react';
+// import Axios from 'axios';
 
-const LastModified = ({data}) => {
+// const LastModified = ({data}) => {
 
-    return ( 
-        <div className="LastModified">
-            آخرین بروزرسانی : {' '}
-            {data.LastModified}
-        </div>
-     );
-}
+//     return ( 
+//         <div className="LastModified">
+//             آخرین بروزرسانی : {' '}
+//             {data.LastModified}
+//         </div>
+//      );
+// }
  
-export default LastModified;
+// export default LastModified;

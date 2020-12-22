@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
 import Currency from './components/Currency';
 import LastModified from './components/LastModified';
-import Gold from './components/Gold';
-import Item from './components/Items';
 
 const App = () => {
   
@@ -19,11 +17,7 @@ const App = () => {
 
   return ( 
     <>
-
-    <LastModified data={data} />
     <Currency data={data} />
-    <Gold data={data} />
-    <Item data={data} />
     </>
    );
 }

@@ -10,8 +10,8 @@ const Currency = ({data}) => {
             <div className="Currency">
 
             <div className="Name">
-            <div className="nameBottom">کد ارز : {currency.slug}</div>
-            <div className="nameBottom">نام ارز : {currency.title}</div>
+            <div className="nameBottom">کد ارز : {currency.title}</div>
+            <div className="nameBottom"> آخرین آپدیت : {currency.updated_at}</div>
             </div>
 
             <div className="BuySell">
